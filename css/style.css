@@ -1,0 +1,187 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.headerPart{
+    background-image: url(../images/donation13.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.headerPart h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.headerPart p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: #ff5959;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.donate-today{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.donate-today-elements h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 12%;
+}
+
+.donate-today-elements p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.donate-amount{
+    display: flex;
+}
+
+.donate-amount h1{
+    padding:20px;
+    background-color: #fafafa;
+    margin: 0px 10px;
+    font-size: 30px;
+    color: black;
+}
+
+.active-values{
+    border: 2px solid #ff5959;
+    
+}
+
+.input-value{
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.border{
+    border-bottom: 2px solid black;
+    width: 670px;
+}
+
+.donate-plan{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    
+    
+}
+.donate-plan-elements{
+    padding: 3%;
+    background-color: #edf5f6;
+    margin: 0px 20px;
+    border-radius: 5px;
+}
+
+.donate-plan-elements img{
+    margin-bottom: 20px;
+}
+
+.donate-plan-elements h3{
+    margin-bottom: 20px;
+}
+
+.color{
+    background-color: #ffeeee;
+}
+
+.colorTwo{
+    background-color: #fff4d6;
+}
+
+.footerPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 200px;
+}
+
+.get-update{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    
+}
+.update-form{
+    margin-top: 30px;
+    background-color: #ffeeee;
+    display: flex;
+    padding: 100px 350px
+    
+}
+
+.update-email{
+    padding: 17px 16px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    background-color: rgb(173, 170, 170);
+    color: white;
+}
+
+.buttonSubmit{
+    text-decoration: none;
+    color: white;
+    background-color: #ff5959;
+    padding: 15px 15px;
+    border-radius: 0px 5px 5px 0px;
+    
+    
+}
+
+.get-update h1{
+    font-size: 40px;
+}
+
+.feedBack{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.feedBack-elements{
+    display: flex;
+}
+
+.user-details{
+    margin-top: 120px;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.user-details h3{
+    font-size: 30px;
+}
+
+.feedBack-section{
+    background-color: #fff4d6;
+    padding: 5%;
+    margin: 5%;
+}
