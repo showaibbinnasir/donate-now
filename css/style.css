@@ -14,6 +14,9 @@
     align-items: center;
     text-align: center;
 }
+.southChi{
+    font-size: 76px;
+}
 
 .headerPart h1{
     font-size: 60px;
@@ -93,6 +96,8 @@
     background-color: #edf5f6;
     margin: 0px 20px;
     border-radius: 5px;
+    text-align: justify;
+    width: 30%;
 }
 
 .donate-plan-elements img{
@@ -118,7 +123,7 @@
     text-align: center;
     color: white;
     background-color: black;
-    height: 200px;
+    height: 350px;
 }
 
 .get-update{
@@ -162,12 +167,14 @@
 
 .feedBack{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    
 }
 
 .feedBack-elements{
     display: flex;
+    justify-content: center;
 }
 
 .user-details{
@@ -184,4 +191,64 @@
     background-color: #fff4d6;
     padding: 5%;
     margin: 5%;
+}
+
+@media only screen and (max-width:668px){
+
+    .headerPart h1{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .southChi{
+        font-size: 46px;
+    }
+    .headerPart p{
+        font-size: 18px;
+        margin-bottom: 30px;
+        
+    }
+    .donate-today-elements h1{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-top: 12%;
+        margin: 10px;
+    }
+    .donate-plan{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4%;
+        gap: 20px;
+        
+        
+    }
+    .donate-plan-elements{
+        padding: 3%;
+        background-color: #edf5f6;
+        margin: 0px 20px;
+        border-radius: 5px;
+        text-align: justify;
+        width: 85%;
+    }
+    
+    .donate-plan-elements img{
+        margin-bottom: 20px;
+    }
+    
+    .donate-plan-elements h3{
+        margin-bottom: 20px;
+    }
+    
+    .color{
+        background-color: #ffeeee;
+    }
+    
+    .colorTwo{
+        background-color: #fff4d6;
+    }
+    
+    
+    
 }
